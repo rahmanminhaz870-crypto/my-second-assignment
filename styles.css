@@ -299,3 +299,49 @@
         color: var(--text-gray);
         font-size: 14px;
     }
+    
+    #features {
+        padding: 80px 0;
+    }
+    
+    .section-header {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+    }
+    
+    .features-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    
+    .feature-card {
+        background: var(--card-dark);
+        padding: 40px;
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        transition: 0.3s;
+    }
+    
+    .feature-card:hover {
+        transform: translateY(-5px);
+        border-color: #7928CA;
+    }
+    
+    .icon-box img {
+        width: 45px;
+        margin-bottom: 25px;
+    }
+    
+    .feature-card h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    
+    .feature-card p {
+        color: var(--text-gray);
+        line-height: 26px;
+    }
